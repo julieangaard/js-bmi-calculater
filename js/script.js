@@ -8,7 +8,7 @@
 // Vigtigt: i JavaScript skrives decimaltal med PUNKTUM, ikke komma. Skriv altså 1.75, ikke 1,75.
 // Skriver du 1,75, opfatter JavaScript det som to separate værdier (1 og 75), og koden vil ikke
 // give det resultat, du forventer.
-function beregnBMI() {
+function beregnBMI(weight, height) {
 
     // Eksempel: BMI beregnes med formlen vægt divideret med (højde multipliceret med højde)
     let bmi = weight / (height * height);
@@ -43,7 +43,7 @@ function beregnBMI() {
 }
 
 beregnBMI(70, 1.75);
-beregnBMI(55, 1.70);
+beregnBMI(50, 1.70);
 beregnBMI(65, 1.60);
 beregnBMI(100, 1.70);
 // Skriv selv: kald funktionen 2-3 gange mere med andre kombinationer af weight og height,
